@@ -420,10 +420,8 @@ Que new es un metodo de la clase Hash y es el constructor del hash. Mientras que
 54. ¿Que retorna esta expresion?
 ’hello world, hello LPP’.scan /\w+/
 
-["hello", "world", "hello", "LPP"]
-
 55. Explique que hacen estas sentencias:
-c = { :a => 3, :b => 2, :c => 1 } Crea un hash con los valores 3, 2 y 1 con las clavez a, b y c respectivamente
+c = { :a => 3, :b => 2, :c => 1 } Crea un hash con los valores 3, 2 y 1
 c.keys.sort.each { |k| puts c[k] } Recorre el hash mostrando los elementos
 
 
